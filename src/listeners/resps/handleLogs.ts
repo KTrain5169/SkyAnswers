@@ -200,7 +200,7 @@ async function verbalizeCrash(
   try {
     crashData = Crashes.parse(
       await getTrackedData(
-        "https://github.com/SkyblockClient/CrashData/raw/main/crashes.json",
+        "https://github.com/KTrain5169/SkyClient-CrashData/raw/no-feather/crashes.json",
       ),
     );
   } catch (e) {

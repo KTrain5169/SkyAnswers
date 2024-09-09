@@ -5,6 +5,8 @@ import { GatewayIntentBits, Partials } from "discord.js";
 import "@sapphire/plugin-logger/register";
 import "@sapphire/plugin-editable-commands/register";
 import { setup } from "@skyra/env-utilities";
+export * from '../src/listeners/ticket/MessageListener.js';
+
 
 setup();
 
